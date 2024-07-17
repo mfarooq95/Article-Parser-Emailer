@@ -82,6 +82,7 @@ Once the repo is cloned or downloaded, it's important that several steps are tak
    > ### NOTE❗️
    > 
    > *Without your AWS credentials path shared appropraitely, Terraform will not be able to create the resources requried to create the cloud app.*
+   > *You can also use environment variables that store your AWS secret key and access key if you've set that up.*
 
 4. Change the RSS feed in `app.py`. As a default, the app will pull the latest article from The Marginalian and use that.
 
@@ -100,7 +101,7 @@ Once the repo is cloned or downloaded, it's important that several steps are tak
 
    Terminal Prompt:
    
-   `zip -r my_lambda_function <project_directory_name>`
+   `zip -r my_lambda_function.zip app.py`
 
    Terraform:
 
