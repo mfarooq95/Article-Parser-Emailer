@@ -1,0 +1,1 @@
+Zip third-party dependencies from the project readme into this folder. You can locate all packages installed into the virtual environment in the project's .venv folder.
